@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado del Medio Ambiente | Protege Nuestro Planeta</title>
+    <!-- Tailwind CSS CDN para un diseño moderno y rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="bg-emerald-800 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-earth-americas text-2xl text-emerald-400"></i>
+                <span class="text-xl font-bold tracking-wide">EcoPlaneta</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#tipos" class="hover:text-emerald-300 transition">Tipos</a>
+                <a href="#causas" class="hover:text-emerald-300 transition">Causas</a>
+                <a href="#acciones" class="hover:text-emerald-300 transition">Qué puedes hacer</a>
+                <a href="#contacto" class="hover:text-emerald-300 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="bg-gradient-to-r from-emerald-900 to-teal-800 text-white py-20 px-6 text-center">
+        <div class="container mx-auto max-w-3xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6">Protege Nuestro Planeta, Es el Único Hogar que Tenemos</h1>
+            <p class="text-lg md:text-xl text-emerald-100 mb-8">La contaminación ambiental es un problema global que nos afecta a todos. Conoce los tipos de contaminación y descubre cómo puedes aportar tu grano de arena.</p>
+            <a href="#acciones" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300">¡Quiero ayudar!</a>
+        </div>
+    </section>
+
+    <!-- ESTADÍSTICAS RÁPIDAS -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-emerald-50 rounded-xl shadow-sm border border-emerald-100">
+                <i class="fa-solid fa-trash text-3xl text-emerald-600 mb-3"></i>
+                <h3 class="text-3xl font-bold text-emerald-900 mb-1">8 Millones</h3>
+                <p class="text-slate-600 text-sm">De toneladas de plástico llegan a los océanos cada año.</p>
+            </div>
+            <div class="p-6 bg-emerald-50 rounded-xl shadow-sm border border-emerald-100">
+                <i class="fa-solid fa-smog text-3xl text-emerald-600 mb-3"></i>
+                <h3 class="text-3xl font-bold text-emerald-900 mb-1">9 de cada 10</h3>
+                <p class="text-slate-600 text-sm">Personas respiran aire contaminado a nivel mundial.</p>
+            </div>
+            <div class="p-6 bg-emerald-50 rounded-xl shadow-sm border border-emerald-100">
+                <i class="fa-solid fa-tree text-3xl text-emerald-600 mb-3"></i>
+                <h3 class="text-3xl font-bold text-emerald-900 mb-1">10 Millones</h3>
+                <p class="text-slate-600 text-sm">De hectáreas de bosques se pierden anualmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPOS DE CONTAMINACIÓN -->
+    <section id="tipos" class="py-16 px-6 container mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-emerald-900 mb-3">Tipos de Contaminación Ambiental</h2>
+            <p class="text-slate-600 max-w-xl mx-auto">Entender el problema es el primer paso para combatirlo.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Tarjeta 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="text-emerald-600 text-2xl mb-4"><i class="fa-solid fa-wind"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Contaminación del Aire</h3>
+                    <p class="text-slate-600 text-sm">Causada por emisiones de gases tóxicos de fábricas, vehículos y quema de combustibles fósiles.</p>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="text-emerald-600 text-2xl mb-4"><i class="fa-solid fa-water"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Contaminación del Agua</h3>
+                    <p class="text-slate-600 text-sm">Provocada por vertidos industriales, plásticos y aguas residuales que dañan la vida marina.</p>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="text-emerald-600 text-2xl mb-4"><i class="fa-solid fa-mountain"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Contaminación del Suelo</h3>
+                    <p class="text-slate-600 text-sm">Afectado por el uso excesivo de pesticidas, basura urbana y productos químicos nocivos.</p>
+                </div>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                <div class="p-6">
+                    <div class="text-emerald-600 text-2xl mb-4"><i class="fa-solid fa-volume-high"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Contaminación Acústica</h3>
+                    <p class="text-slate-600 text-sm">El exceso de ruido en las ciudades afecta negativamente la salud física y mental de las personas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCIONES / QUÉ PUEDES HACER -->
+    <section id="acciones" class="py-16 bg-emerald-900 text-white px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-3">¿Qué Puedes Hacer Tú?</h2>
+                <p class="text-emerald-200">Pequeños cambios en tu día a día generan un impacto enorme.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-emerald-800 p-6 rounded-lg border border-emerald-700 flex items-start space-x-4">
+                    <i class="fa-solid fa-recycle text-emerald-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-lg mb-1">Aplica las 3 Rs</h4>
+                        <p class="text-sm text-emerald-200">Reduce lo que consumes, reutiliza al máximo y recicla correctamente tus residuos.</p>
+                    </div>
+                </div>
+                <div class="bg-emerald-800 p-6 rounded-lg border border-emerald-700 flex items-start space-x-4">
+                    <i class="fa-solid fa-bicycle text-emerald-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-lg mb-1">Usa Transporte Sostenible</h4>
+                        <p class="text-sm text-emerald-200">Camina, usa la bicicleta o prefiere el transporte público para disminuir las emisiones de CO₂.</p>
+                    </div>
+                </div>
+                <div class="bg-emerald-800 p-6 rounded-lg border border-emerald-700 flex items-start space-x-4">
+                    <i class="fa-solid fa-faucet text-emerald-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-lg mb-1">Ahorra Agua y Energía</h4>
+                        <p class="text-sm text-emerald-200">Cierra la llave mientras te lavas los dientes y apaga las luces o aparatos que no estés usando.</p>
+                    </div>
+                </div>
+                <div class="bg-emerald-800 p-6 rounded-lg border border-emerald-700 flex items-start space-x-4">
+                    <i class="fa-solid fa-bag-shopping text-emerald-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-lg mb-1">Evita Plásticos de Un Solo Uso</h4>
+                        <p class="text-sm text-emerald-200">Lleva siempre tus bolsas de tela, botella reutilizable y evita comprar agua embotellada innecesaria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto" class="bg-slate-900 text-slate-400 py-10 px-6 text-center">
+        <div class="container mx-auto">
+            <p class="mb-3 font-semibold text-white">Juntos podemos marcar la diferencia</p>
+            <p class="text-sm">Sitio web educativo sobre la preservación del medio ambiente.</p>
+            <p class="text-xs mt-6 text-slate-600">&copy; 2026 EcoPlaneta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
